@@ -50,7 +50,7 @@ We want to test the journey with students, improve lessons from their feedback, 
 
 ### Current preview scope
 
-The Android download is a debuggable development preview using a compatible existing native payload. Prototypes use authored/simulated data inside ShipingIT; CampusCompass has no live GPS and StudyBuddy's live AI is off. Progress stays local. Ami/Noa web replies and native sandbox purchase/restore have been exercised; native live AI, typed-answer model feedback and full owned export remain unverified. No production purchase or tested iOS binary is claimed.
+The Android download is a debuggable development preview using a compatible existing native payload. Prototypes use authored/simulated data inside ShipingIT; CampusCompass has no live GPS and StudyBuddy's live AI is off. Progress stays local. Ami/Noa web replies and native sandbox purchase/restore have been exercised. One native Ami reply was observed after consent, with no project notes attached; broader native AI acceptance remains pending. Typed-answer model feedback and full owned export remain unverified. No production purchase or tested iOS binary is claimed.
 
 ## Built with
 
