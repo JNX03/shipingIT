@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 1,
+  "generator": "scripts/generate_game_audio.py",
+  "source": "Original deterministic procedural synthesis; no external audio or recordings",
+  "encoding": {
+    "container": "WAV",
+    "codec": "PCM",
+    "sampleRate": 44100,
+    "channels": 1,
+    "bitsPerSample": 16
+  },
+  "verification": {
+    "maximumAllowedPeak": 0.45,
+    "maximumCueSeconds": 0.8,
+    "maximumPackBytes": 2000000,
+    "packBytes": 1396514,
+    "measures": "Computed from decoded final PCM16, normalized by 32768; endpoint frames are signed PCM16"
+  },
+  "assets": [
+    {
+      "id": "footstep",
+      "asset": "assets/audio/game/footstep.wav",
+      "loop": false,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Seeded one-pole low-pass noise with damped sine body",
+        "seed": 730031,
+        "lowPassCutoffHz": 520.0,
+        "bodyHz": 98.0
+      },
+      "controllerPolicy": {
+        "priority": 0,
+        "minimumIntervalMs": 200,
+        "suggestedVolume": 0.42,
+        "busyWindowMs": 110
+      },
+      "frameCount": 3969,
+      "durationSeconds": 0.09,
+      "peak": 0.1399841309,
+      "rms": 0.0333133955,
+      "dc": -3.46004e-07,
+      "firstFrames": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3,
+        6
+      ],
+      "lastFrames": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 0,
+      "bytes": 7982,
+      "sha256": "a185845f13df43e3d15ce11fe3246eb0d2d6a6d5db9ae6b3594546091148ba14"
+    },
+    {
+      "id": "clue",
+      "asset": "assets/audio/game/clue.wav",
+      "loop": false,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Raised-cosine enveloped additive mallet tones",
+        "notesHzStartSecondsLengthSecondsGain": [
+          [
+            587.33,
+            0.0,
+            0.16,
+            1.0
+          ],
+          [
+            659.255,
+            0.08,
+            0.18,
+            0.82
+          ]
+        ],
+        "partialsHarmonicGainDecay": [
+          [
+            1,
+            1.0,
+            3.0
+          ],
+          [
+            2,
+            0.12,
+            7.0
+          ],
+          [
+            3,
+            0.025,
+            9.0
+          ]
+        ]
+      },
+      "controllerPolicy": {
+        "priority": 1,
+        "minimumIntervalMs": 250,
+        "suggestedVolume": 0.55,
+        "busyWindowMs": 280
+      },
+      "frameCount": 11466,
+      "durationSeconds": 0.26,
+      "peak": 0.259979248,
+      "rms": 0.0802478953,
+      "dc": -3.1939e-08,
+      "firstFrames": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        6,
+        10,
+        16
+      ],
+      "lastFrames": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 0,
+      "bytes": 22976,
+      "sha256": "98b4d3b8977fa36ac560f8dcc437e501c8a640c3c21be917a742967275608c94"
+    },
+    {
+      "id": "snap",
+      "asset": "assets/audio/game/snap.wav",
+      "loop": false,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Seeded one-pole low-pass noise with damped sine body",
+        "seed": 730033,
+        "lowPassCutoffHz": 1550.0,
+        "bodyHz": 820.0
+      },
+      "controllerPolicy": {
+        "priority": 1,
+        "minimumIntervalMs": 90,
+        "suggestedVolume": 0.48,
+        "busyWindowMs": 100
+      },
+      "frameCount": 3528,
+      "durationSeconds": 0.08,
+      "peak": 0.1900024414,
+      "rms": 0.0404340654,
+      "dc": 1.73e-08,
+      "firstFrames": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        6,
+        9,
+        14
+      ],
+      "lastFrames": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 0,
+      "bytes": 7100,
+      "sha256": "03d5fc8218b44f9a554c549a39f864e74b98f093d61d36e33a37a0643fc0a4cf"
+    },
+    {
+      "id": "correct",
+      "asset": "assets/audio/game/correct.wav",
+      "loop": false,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Raised-cosine enveloped additive mallet tones",
+        "notesHzStartSecondsLengthSecondsGain": [
+          [
+            659.255,
+            0.0,
+            0.22,
+            1.0
+          ],
+          [
+            783.991,
+            0.105,
+            0.235,
+            0.82
+          ]
+        ],
+        "partialsHarmonicGainDecay": [
+          [
+            1,
+            1.0,
+            3.0
+          ],
+          [
+            2,
+            0.12,
+            7.0
+          ],
+          [
+            3,
+            0.025,
+            9.0
+          ]
+        ]
+      },
+      "controllerPolicy": {
+        "priority": 2,
+        "minimumIntervalMs": 120,
+        "suggestedVolume": 0.55,
+        "busyWindowMs": 360
+      },
+      "frameCount": 14994,
+      "durationSeconds": 0.34,
+      "peak": 0.2899780273,
+      "rms": 0.090069881,
+      "dc": 5.4954e-08,
+      "firstFrames": [
+        0,
+        0,
+        1,
+        2,
+        4,
+        7,
+        12,
+        19
+      ],
+      "lastFrames": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 0,
+      "bytes": 30032,
+      "sha256": "60b03f0a9d5207168e8308fbbabf69225ebb4faa5cb09dee7415ea9bc375d4e0"
+    },
+    {
+      "id": "wrong",
+      "asset": "assets/audio/game/wrong.wav",
+      "loop": false,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Raised-cosine enveloped additive mallet tones",
+        "notesHzStartSecondsLengthSecondsGain": [
+          [
+            440.0,
+            0.0,
+            0.2,
+            1.0
+          ],
+          [
+            391.995,
+            0.1,
+            0.2,
+            0.75
+          ]
+        ],
+        "partialsHarmonicGainDecay": [
+          [
+            1,
+            1.0,
+            3.0
+          ],
+          [
+            2,
+            0.12,
+            7.0
+          ],
+          [
+            3,
+            0.025,
+            9.0
+          ]
+        ]
+      },
+      "controllerPolicy": {
+        "priority": 2,
+        "minimumIntervalMs": 160,
+        "suggestedVolume": 0.48,
+        "busyWindowMs": 320
+      },
+      "frameCount": 13230,
+      "durationSeconds": 0.3,
+      "peak": 0.2399902344,
+      "rms": 0.0719683765,
+      "dc": -1.06108e-07,
+      "firstFrames": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        4,
+        7,
+        11
+      ],
+      "lastFrames": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 0,
+      "bytes": 26504,
+      "sha256": "b6171eeefc23f730078725ef43a8194636ba5b7e917209f80791bb5c52a400fb"
+    },
+    {
+      "id": "completion",
+      "asset": "assets/audio/game/completion.wav",
+      "loop": false,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Raised-cosine enveloped additive mallet tones",
+        "notesHzStartSecondsLengthSecondsGain": [
+          [
+            523.251,
+            0.0,
+            0.25,
+            1.0
+          ],
+          [
+            659.255,
+            0.12,
+            0.27,
+            0.88
+          ],
+          [
+            783.991,
+            0.24,
+            0.29,
+            0.84
+          ],
+          [
+            1046.502,
+            0.39,
+            0.37,
+            0.76
+          ]
+        ],
+        "partialsHarmonicGainDecay": [
+          [
+            1,
+            1.0,
+            3.0
+          ],
+          [
+            2,
+            0.12,
+            7.0
+          ],
+          [
+            3,
+            0.025,
+            9.0
+          ]
+        ]
+      },
+      "controllerPolicy": {
+        "priority": 3,
+        "minimumIntervalMs": 780,
+        "suggestedVolume": 0.55,
+        "busyWindowMs": 780
+      },
+      "frameCount": 33516,
+      "durationSeconds": 0.76,
+      "peak": 0.3299865723,
+      "rms": 0.0948238124,
+      "dc": -1.0926e-08,
+      "firstFrames": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        6,
+        10,
+        16
+      ],
+      "lastFrames": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 0,
+      "bytes": 67076,
+      "sha256": "ab7b98f3920663caa564c30862054cd19f6ed32aedbe22d40ed9a2e0abdc257f"
+    },
+    {
+      "id": "world-ambience",
+      "asset": "assets/audio/game/world-ambience.wav",
+      "loop": true,
+      "source": "Original deterministic procedural synthesis; no external audio or recordings",
+      "synthesis": {
+        "method": "Phase-closed additive C-major pad and seeded periodic Fourier air texture",
+        "seed": 730037,
+        "phaseGrid": "u = frameIndex / (frameCount - 1)",
+        "padCyclesPerLoopAndGain": [
+          [
+            1831,
+            0.5
+          ],
+          [
+            2744,
+            0.23
+          ],
+          [
+            3663,
+            0.075
+          ],
+          [
+            4615,
+            0.095
+          ]
+        ],
+        "airCyclesPerLoopPhaseRadiansGain": [
+          [
+            14120,
+            4.292354381640751,
+            0.0043859862848296014
+          ],
+          [
+            13252,
+            3.8761280201982524,
+            0.0046879801066159734
+          ],
+          [
+            5944,
+            5.725985174243375,
+            0.00576810906386826
+          ],
+          [
+            6582,
+            4.072687990369256,
+            0.00553586364336423
+          ],
+          [
+            13648,
+            5.534467951890783,
+            0.004221513155832056
+          ],
+          [
+            11593,
+            5.479652764356747,
+            0.005872023470123328
+          ],
+          [
+            15360,
+            2.6320516656140533,
+            0.003251483204999495
+          ],
+          [
+            7969,
+            2.1540628220716247,
+            0.005747237437171405
+          ],
+          [
+            6396,
+            3.7725875665718966,
+            0.004919827374470958
+          ],
+          [
+            10304,
+            3.8872426159305538,
+            0.00519954120826263
+          ],
+          [
+            8576,
+            3.6532255379295355,
+            0.003532804863728483
+          ],
+          [
+            14351,
+            4.917097279510819,
+            0.0045069823561318416
+          ],
+          [
+            9989,
+            2.817986806091086,
+            0.003527803924535253
+          ],
+          [
+            6819,
+            2.7548948636326402,
+            0.0035280289720926376
+          ],
+          [
+            14036,
+            5.243623128564373,
+            0.0034853623974349804
+          ],
+          [
+            9634,
+            3.670869665134058,
+            0.004625589669508981
+          ],
+          [
+            13592,
+            6.122552105851464,
+            0.005236760505863574
+          ],
+          [
+            8404,
+            5.637071870180794,
+            0.005060550002412073
+          ],
+          [
+            13488,
+            5.242893427094366,
+            0.0035747601361866346
+          ],
+          [
+            5784,
+            3.8012102288077005,
+            0.003586603837025942
+          ],
+          [
+            11164,
+            5.640139408478805,
+            0.004926885866226621
+          ],
+          [
+            6205,
+            2.2135992182084645,
+            0.003295689063381637
+          ],
+          [
+            14118,
+            4.271713684526145,
+            0.005729129342225344
+          ],
+          [
+            7726,
+            6.209876569292059,
+            0.004364153007237557
+          ]
+        ],
+        "swell": "0.82 + 0.12*cos(2*pi*u) + 0.06*cos(4*pi*u)",
+        "breezeSwell": "0.72 + 0.28*cos(2*pi*u)",
+        "pcmPeakLimit": 0.02,
+        "pcmRmsLimit": 0.0065
+      },
+      "controllerPolicy": {
+        "suggestedVolume": 0.18,
+        "simultaneousAmbienceLimit": 1
+      },
+      "frameCount": 617400,
+      "durationSeconds": 14.0,
+      "peak": 0.0169372559,
+      "rms": 0.0064998137,
+      "dc": 8.008e-09,
+      "firstFrames": [
+        -30,
+        -15,
+        0,
+        16,
+        32,
+        48,
+        65,
+        82
+      ],
+      "lastFrames": [
+        -121,
+        -109,
+        -97,
+        -84,
+        -71,
+        -58,
+        -44,
+        -30
+      ],
+      "endpointJumpPcm16": 0,
+      "endpointSlopeDifferencePcm16": 1,
+      "bytes": 1234844,
+      "sha256": "966ea473cca6c26072d0c65e3e1c4bbb8231572074b93a2ca1203779c9b2e7ae"
+    }
+  ],
+  "preview": {
+    "asset": "artifacts/audio-20260930/cue-preview.wav",
+    "cueOrder": [
+      "footstep",
+      "clue",
+      "snap",
+      "correct",
+      "wrong",
+      "completion"
+    ],
+    "silenceBetweenSeconds": 0.3,
+    "frameCount": 146853,
+    "durationSeconds": 3.33,
+    "peak": 0.3299865723,
+    "rms": 0.06260294,
+    "dc": -1.7872e-08,
+    "firstFrames": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      3,
+      6
+    ],
+    "lastFrames": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "endpointJumpPcm16": 0,
+    "endpointSlopeDifferencePcm16": 0,
+    "bytes": 293750,
+    "sha256": "9f6413bfae3aaef3a639b31bb351bd1c9c4ef29278227befd34c86b54e8bc6ab"
+  }
+}

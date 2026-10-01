@@ -74,52 +74,52 @@
   ],
   "sourceHistory": [
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-7487537d-bfb2-4fb1-880f-45305482a722.png",
+      "source": "original-generation/exec-7487537d-bfb2-4fb1-880f-45305482a722.png",
       "role": "rejected-v1-canteen",
       "sha256": "574bd27d2648bb616db81af0aa42092b047b9f07ab8fff17acd393c61895def0"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-90c70bab-5de6-40d7-b44a-aa690d7fac78.png",
+      "source": "original-generation/exec-90c70bab-5de6-40d7-b44a-aa690d7fac78.png",
       "role": "rejected-v1-sports",
       "sha256": "356d8c7a91f4ef884ae0639a7995937e52bc9f4d995b7a12e04ebdfd0b1c0f95"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-c572afff-5a55-4cd7-a6c3-05ec91a01a9a.png",
+      "source": "original-generation/exec-c572afff-5a55-4cd7-a6c3-05ec91a01a9a.png",
       "role": "rejected-perspective-edit",
       "sha256": "53a0305a4192d8c841208032b48b3c45e7275b5358a5b9f1664490f7c83ea1c7"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-58f9f3d0-ebf9-4b20-818c-4768f6f42f8c.png",
+      "source": "original-generation/exec-58f9f3d0-ebf9-4b20-818c-4768f6f42f8c.png",
       "role": "rejected-perspective-edit",
       "sha256": "ea1d9487fc255fc8ca832fc71f662b0593fc6441217907d52613add549f8b07d"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-df559ac4-84d9-4d44-acbd-bb7d24e9870e.png",
+      "source": "original-generation/exec-df559ac4-84d9-4d44-acbd-bb7d24e9870e.png",
       "role": "rejected-perspective-edit",
       "sha256": "3d7144c64e188ca7b7c19e99dcae393538a1b4b53ccb0b2ab12a549f66e92430"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-bc3d3c10-d9aa-465b-8a60-6bb7302ffe39.png",
+      "source": "original-generation/exec-bc3d3c10-d9aa-465b-8a60-6bb7302ffe39.png",
       "role": "rejected-perspective-edit",
       "sha256": "36ceb979c3e7ed6373c1a848edaf784fe4ea68fa5f3582cd3d278561ef825af8"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-07b783df-945e-40a7-a7c6-5315b4ca63e4.png",
+      "source": "original-generation/exec-07b783df-945e-40a7-a7c6-5315b4ca63e4.png",
       "role": "orthographic-canteen-generation",
       "sha256": "0369281107ac5bd16be6f934fbe725db2c165f9b9a82b2805675b37c3801c26a"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-3e107519-083d-41f6-8d2e-04ee56a73cc8.png",
+      "source": "original-generation/exec-3e107519-083d-41f6-8d2e-04ee56a73cc8.png",
       "role": "orthographic-sports-generation",
       "sha256": "90e3d0c61c5ba44354373c7800d5fdcdd03c42af800baf2d004bf0eb4e9b0a8a"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-66b902af-652b-409c-8b77-844482344b1f.png",
+      "source": "original-generation/exec-66b902af-652b-409c-8b77-844482344b1f.png",
       "role": "accepted-canteen-master",
       "sha256": "ec1d3d0bb904dd07225b7f59e7c3eab5fe55d36f4ff0c24af73fc131c7435cbf"
     },
     {
-      "source": "C:/Users/Jnx03/.codex/generated_images/01a0eebf-2bca-7270-ba90-c5bf76829c7c/exec-9cdaab34-6cfe-4229-9232-e0e057084a09.png",
+      "source": "original-generation/exec-9cdaab34-6cfe-4229-9232-e0e057084a09.png",
       "role": "accepted-sports-master",
       "sha256": "5505e6c4a74fb68247cc8136dd1d932ab9c8a8cda3edc32f82c2476203d6b730"
     }

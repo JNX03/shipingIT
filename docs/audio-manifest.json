@@ -1,0 +1,81 @@
+[
+  {
+    "asset": "assets/audio/correct.wav",
+    "durationSeconds": 0.34,
+    "sampleRate": 22050,
+    "channels": 1,
+    "bits": 16,
+    "peak": 0.36697,
+    "bytes": 15038,
+    "sha256": "3b119f72bc1a2421c456463796521e58d18a41ee6d608c50bb997172e636398f",
+    "notesHzStartSecondsDurationSeconds": [
+      [
+        659.255,
+        0,
+        0.19
+      ],
+      [
+        783.991,
+        0.1,
+        0.24
+      ]
+    ],
+    "source": "Original deterministic additive synthesis; no external audio"
+  },
+  {
+    "asset": "assets/audio/wrong.wav",
+    "durationSeconds": 0.26,
+    "sampleRate": 22050,
+    "channels": 1,
+    "bits": 16,
+    "peak": 0.37756,
+    "bytes": 11510,
+    "sha256": "14049f73b4a9c91da385ed727bc9ae7257bdf97722682a0691d63ed054bb2c33",
+    "notesHzStartSecondsDurationSeconds": [
+      [
+        440.0,
+        0,
+        0.16
+      ],
+      [
+        391.995,
+        0.09,
+        0.17
+      ]
+    ],
+    "source": "Original deterministic additive synthesis; no external audio"
+  },
+  {
+    "asset": "assets/audio/completion.wav",
+    "durationSeconds": 0.64,
+    "sampleRate": 22050,
+    "channels": 1,
+    "bits": 16,
+    "peak": 0.36056,
+    "bytes": 28268,
+    "sha256": "02dce43b414ac182ee129bfdb5ec0a3d1676cd3fd658f42f975d265099e6ee71",
+    "notesHzStartSecondsDurationSeconds": [
+      [
+        523.251,
+        0,
+        0.24
+      ],
+      [
+        659.255,
+        0.12,
+        0.25
+      ],
+      [
+        783.991,
+        0.24,
+        0.26
+      ],
+      [
+        1046.502,
+        0.36,
+        0.28
+      ]
+    ],
+    "source": "Original deterministic additive synthesis; no external audio"
+  }
+]
