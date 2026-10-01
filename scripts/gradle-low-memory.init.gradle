@@ -1,0 +1,29 @@
+// Build-local resource limits only. No dependency, SDK, AGP or Kotlin version changes.
+gradle.beforeProject { project ->
+  project.pluginManager.withPlugin('com.facebook.react') {
+    if (project.name == 'app') {
+      project.extensions.findByName('react').extraPackagerArgs.addAll(['--max-workers', '1'])
+      // Environment/profile changes must invalidate the embedded bundle too.
+      def fingerprint = project.findProperty('shipingitRuntimeSourceSha256')
+      if (fingerprint != null) {
+        project.tasks.configureEach { task ->
+          if (task.name.startsWith('createBundle') && task.name.endsWith('JsAndAssets')) {
+            task.inputs.property('shipingitRuntimeSourceSha256', fingerprint)
+          }
+        }
+      }
+    }
+  }
+  ['com.android.application', 'com.android.library'].each { pluginId ->
+    project.pluginManager.withPlugin(pluginId) {
+      def androidExtension = project.extensions.findByName('android')
+      if (androidExtension != null) {
+        androidExtension.defaultConfig.externalNativeBuild.cmake.arguments.addAll([
+          '-DCMAKE_JOB_POOLS=compile_pool=1;link_pool=1',
+          '-DCMAKE_JOB_POOL_COMPILE=compile_pool',
+          '-DCMAKE_JOB_POOL_LINK=link_pool'
+        ])
+      }
+    }
+  }
+}

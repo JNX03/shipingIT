@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "ShipingIT",
+    "slug": "shipingit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/game/shipit-user-icon.png",
+    "scheme": "shipaton-nextgen",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.dekport.shipaton.nextgen",
+      "supportsTablet": true
+    },
+    "android": {
+      "allowBackup": false,
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#1A99FD",
+        "foregroundImage": "./assets/game/shipit-user-adaptive-foreground.png"
+      },
+      "predictiveBackGestureEnabled": true,
+      "package": "com.dekport.shipaton.nextgen"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/game/shipit-user-favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/game/shipit-user-icon.png",
+          "imageWidth": 96
+        }
+      ],
+      "expo-secure-store",
+      "expo-sharing",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      "expo-asset",
+      "./plugins/with-test-store-qa.cjs"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

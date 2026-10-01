@@ -1,0 +1,8 @@
+project_id = "shipaton-nextgen"
+
+[functions.nextgen-api]
+# The mentor route verifies the user's token against Auth inside the handler.
+# The opportunities and health routes intentionally do not require a user session.
+# This also supports modern asymmetric/publishable-key projects without legacy gateway JWT checks.
+verify_jwt = false
+entrypoint = "./functions/nextgen-api/index.ts"
